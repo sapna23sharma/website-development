@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{
+           
+        }
+        .logo img{
+            width: 164px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+            
+          
+        }
+        .right ul li{
+            list-style: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- design this website's navbar using flexbox -->
+    <header>
+        <nav>
+            <div class="logo">
+<img src="https://lh3.googleusercontent.com/FB0kiQjowfDfVdDohD6yX06sz4y5TG-pxj9zy82SBn88Laxdd3XC9IN0NNueleyv5SvxOYzrIj5Kngpcxr4qdeZQhhGg2lOPU2lTKklOY0LV-fxZFpVVDwamC55FZvpz6zNrCEuXqKbq2IDdQnISsFo" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Product</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About us</li>
+                    <li><img src="https://assets-global.website-files.com/60f176e277f59737dad5bec3/60f7775ef9152ab3357fc105_UE.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
