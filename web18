@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: 23px auto;
+            background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: 23px auto;
+            height: 80vh;
+            background-color: aquamarine;      
+        }
+    </style>
+</head>
+<body>
+  <div class="box">
+    this is a box
+  </div>
+  <div class="container">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, repellat quaerat, harum, corrupti tempore aliquam unde impedit laudantium modi mollitia iusto. Dolorum incidunt esse dignissimos sit perspiciatis accusantium, similique maxime, ut necessitatibus nihil veritatis odio a. Non et cupiditate porro possimus itaque corrupti quod ipsam autem. Assumenda beatae facere esse velit sint autem dicta, cum tempora!
+
+  </div>  
+</body>
+</html>
