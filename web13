@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /*element selector*/
+        div{
+           /* background-color: red;*/
+    
+        }
+        /* class selector */
+        .red{
+           background-color: red;
+        }
+        /* id selector */
+        #green{
+            background-color: green;
+        }
+        /* child selector */
+        div > p {
+            color: blue;
+            background-color:yellow;
+        }
+        /* desendand selector */
+        div p {
+            color: blue;
+            background-color:yellow;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a div
+        <article>
+        <p>i am a para inside div</p>
+        </article>
+    </div>
+    <div id="green">
+        am sapna
+    </div>
+</body>
+</html>
