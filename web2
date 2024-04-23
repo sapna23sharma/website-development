@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img height ="320" src="image.png" alt="Train image">
+<br>
+<table>
+    <caption>friends details</caption>
+    <thead>
+    
+    <tr>
+       <th>name</th>
+        <th>designation</th>
+        <th>work</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+    <td colspan="1">sapna</td>
+    <td rowspan="2">programmer</td>
+    <td>c++</td>
+</tr>
+<tr>
+    <td colspan="1">sam</td>
+    
+    <td>java</td>
+</tr>
+</tfoot>
+</table>
+<ul>
+    <li>harry</li>
+    <li>sapna</li>
+    <li>ansh</li>
+    <li>sana</li>
+</ul>
+<ol>
+    <li>harry</li>
+    <li>sapna</li>
+    <li>ansh</li>
+    <li>sana</li>
+</ol>
+
+<ol type="A">
+    <li>harry</li>
+    <li>sapna</li>
+    <li>ansh</li>
+    <li>sana</li>
+</ol>
+
+
+</body>
+</html>
