@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .box{
+            width:30vw;
+            height: 10vh;
+            border: 2px solid black;
+            /* overflow: scroll;
+            overflow: ellipsis;
+            overflow: auto; */
+            overflow-x: hidden;
+            overflow-y: scroll;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+i am a good girl and i love to write Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, reprehenderit quasi. Aspernatur ea dolorem perspiciatis nobis ullam alias laboriosam dolores quas culpa vero, deserunt quae itaque dolore id ut. Alias, quisquam quos accusamus cum id perspiciatis dolorem ipsam numquam adipisci porro ipsa neque! Et, consequatur.
+    </div>
+    
+</body>
+</html>
