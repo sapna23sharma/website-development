@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float & clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: right;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://pics.craiyon.com/2023-06-20/7f9a15a54868484cb758093340ddb0e1.webp" alt="" width="230">
+        <div class="card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis nam sunt non voluptatibus, incidunt placeat vero aliquid quo, beatae nemo tempore et.</p>
+        </div>
+        <div class="card">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nam quo id blanditiis at explicabo, quod tempore perferendis nemo nihil molestiae natus magni culpa odio doloremque modi consequatur exercitationem, maxime unde nobis? Distinctio minus cum amet autem odio earum ullam eveniet, doloremque, voluptatum repellat velit qui alias laborum. Ea veritatis dolore ipsam fugit facere cupiditate nulla delectus vel fugiat dolores ducimus necessitatibus commodi maxime beatae distinctio, cumque minima quia unde labore ab ex natus quos! Temporibus maxime reiciendis eveniet saepe vitae necessitatibus quam commodi nulla itaque? Molestiae repellendus voluptas dignissimos reprehenderit obcaecati eaque labore. Est quis debitis explicabo vel non iste, id veniam delectus consequuntur, magni qui asperiores quibusdam sapiente cum totam, inventore perferendis voluptates molestias eveniet excepturi. Autem blanditiis assumenda quia eligendi soluta? Debitis hic blanditiis veniam est commodi accusantium magnam enim dolor at saepe, voluptas porro ut quisquam iste obcaecati quasi quibusdam tenetur explicabo maiores aliquid, architecto error repellat! Aliquid a quo, eveniet totam facere veritatis, explicabo tempora tempore vitae, sapiente accusamus officiis ipsam eos ad consequuntur illo. Expedita, odit deserunt et eum libero, corporis eveniet nihil tempora, officia molestiae quis dicta ipsam veritatis quasi fuga vero sequi error saepe at suscipit velit nam vel. Commodi natus nisi cupiditate iure veritatis earum obcaecati, pariatur soluta expedita dolorum? Quam, sapiente eos. Sapiente non quidem impedit, atque doloremque nemo facilis corrupti delectus laudantium quaerat architecto tempora. Sit et illum expedita suscipit, eum dignissimos eius ratione aperiam iure nemo. Repudiandae illo dignissimos aspernatur ea mollitia ducimus, commodi tenetur id eos quos officiis ipsum odio quod hic neque necessitatibus? Laudantium soluta architecto distinctio cum iusto dicta ad autem ipsum fuga culpa porro possimus quos aspernatur illo quo cupiditate veritatis iste, nostrum nulla maiores et fugiat blanditiis perferendis voluptates! Dolorum minima provident veniam temporibus nisi deserunt odit a, accusantium asperiores culpa corporis commodi veritatis perferendis animi at debitis aperiam iste voluptatum! Voluptate ab est accusantium quod illo incidunt dolorum provident laboriosam dicta nostrum. Illum quae reiciendis consequuntur. Culpa magni officia commodi? Veritatis sit vero architecto quam.</p></div>
+       
+        <div class="card">card 3</div>
+    </div>
+    
+</body>
+</html>
