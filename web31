@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css multicolor website</title>
+    <style>
+         /* :root{
+            --primary-color: #b17de1;
+            --text-color: white;
+            --secondary-color: #d9bbf5;
+        }  */
+        :root{
+            --primary-color: #7de19e;
+            --text-color: white;
+            --secondary-color: #d1f5bb;
+        } 
+        body{
+            background-color: var(--secondary-color);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            background-color:var(--primary-color);
+            padding: 12px 0;
+        }
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bolder;
+    
+}
+ul li{
+    display: inline;
+    padding: 23px;
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <!--  if you see this, comment "bhupendrs jogi" in the comments. he is my friend who has visted a lot of places in the US. -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</li></a>
+            <li><a href="/">About</li></a>
+            <li><a href="/">Services</li></a>
+            <li><a href="/">Contact us</li></a>
+          
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
