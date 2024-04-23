@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+        background-color: blue;
+        color: white;
+        }
+        div p:first-child{
+            background: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt perspiciatis molestiae, molestias iure placeat, dolores quod ducimus quos quaerat dolorem at cum quis dolorum magnam accusantium beatae voluptas exercitationem nisi mollitia repellat laboriosam. Distinctio sequi voluptas maxime ipsam corrupti ad, sit commodi, excepturi asperiores quas fuga? Quisquam ratione, iure impedit odit perferendis ut atque.</p>
+    </div>
+    
+</body>
+</html>
